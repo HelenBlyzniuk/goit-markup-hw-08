@@ -3,6 +3,7 @@
 
     @media screen and (max-width:767px){
         position:absolute;
+        max-width:476px;
     }
     
     @media screen and (min-width:768px) {
@@ -47,8 +48,10 @@ padding-bottom:16px;
         padding-bottom: 48px;
         padding-left: 40px;
         padding-right: 40px;
-
+        transform:translateY(-100%);
     }
+
+   
 }
 
 .nav__menu {
