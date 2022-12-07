@@ -4,12 +4,14 @@
     background-color: #2F303A66;
     margin: 0 auto;
     max-width: 1600px;
-    height: 600px;
+    max-height: 600px;
     background-position: center;
+ 
     padding-top: 200px;
     padding-bottom: 200px;
 
     &__title {
+      
         width: 696px;
         margin-top: 0px;
         margin-bottom: 30px;
