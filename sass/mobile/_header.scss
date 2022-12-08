@@ -1,6 +1,11 @@
 .container-header {
    display:flex;
     align-items: center;
+
+    @include mobile{
+        max-width:460px;
+       
+    }
 }
 
 .mobile-menu__open{
@@ -17,6 +22,14 @@
     }
 }
 
+header {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ECECEC;
+
+}
+
 .mobile-menu{
     position:absolute;
     top:0;
@@ -28,13 +41,6 @@
     padding-bottom: 40px;
 }
 
-header {
-    position:relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ECECEC;
-
-}
 
 .logo__span {
     color: var(--title-color);
