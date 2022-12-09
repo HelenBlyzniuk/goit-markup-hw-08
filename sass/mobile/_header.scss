@@ -59,12 +59,12 @@ header {
     padding-right:15px;
     padding-bottom: 40px;
 
-transform: translateX(-100%);
+opacity:1;
     
 }
 
 .mobile-menu .is-hidden{
-   transform:translateX(0);
+opacity: 0;
 }
 .mobile__container{
     height:100%;
