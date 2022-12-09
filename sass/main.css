@@ -120,10 +120,12 @@ header {
   padding-right: 15px;
   padding-bottom: 40px;
   opacity: 1;
+  transform: translateX(-100%);
 }
 
 .mobile-menu .is-hidden {
   opacity: 0;
+  transform: translateX(0);
 }
 
 .mobile__container {
