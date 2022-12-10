@@ -160,7 +160,7 @@ header {
 }
 
 .mobile-menu .is-hidden {
-  opacity: 1;
+  opacity: 0;
 }
 
 .mobile__container {
@@ -702,7 +702,7 @@ h3 {
     gap: 30px;
   }
 }
-@media screen and (max-width: 1140px) {
+@media screen and (mix-width: 1200px) {
   .services {
     display: flex;
     margin: 0;
