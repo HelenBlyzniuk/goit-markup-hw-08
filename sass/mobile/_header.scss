@@ -45,12 +45,14 @@
 
 
 
-    @include desktop {
-        margin-right: 93px;
+    @media screen and (min-width:1200px) {
+    margin-right: 93px;
+    }
+       
     }
 
 
-}
+
 
 .container-header {
     display: flex;
@@ -117,12 +119,13 @@ header {
         padding: 10px 15px;
 
     }
-
-    @include tablet {
-        height: 80px;
-        padding-left: 15px;
-        padding-top: 21px;
+     
+    @include tablet{
+    height: 80px;
+    padding-left: 15px;
+    padding-top: 21px;
     }
+       
 }
 
 .mobile-menu {
