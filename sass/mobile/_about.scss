@@ -1,4 +1,11 @@
 .about {
+    @media screen and (max-width:1199px) {
+        display:none;
+    }
+
+    @media screen and (min-width:1200px) {
+        
+   
     padding-top: 0;
     padding-bottom: 94px;
 
@@ -24,7 +31,6 @@
 }
 
 
-
 .about__pic {
     display: block;
 
@@ -34,7 +40,7 @@
 }
 
 .about__overlay {
-
+    
     position: absolute;
     bottom: 3px;
     left: 0;
@@ -62,3 +68,4 @@
 .about__overlay-wrapper {
     position: relative;
 }
+ }
